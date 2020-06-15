@@ -1,0 +1,16 @@
+{
+    "extends": [
+      "airbnb-base",//スタイルガイドがいらない場合や他を使う場合はここを書き換える
+      "plugin:@typescript-eslint/recommended",
+      "plugin:prettier/recommended",
+      "prettier/@typescript-eslint"
+    ],
+    "env": {
+          "browser": true,
+          "es6": true,
+          "node": true
+    },
+    "parserOptions": {
+      "sourceType": "module"
+    }
+  }
